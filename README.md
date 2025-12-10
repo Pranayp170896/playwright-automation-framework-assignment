@@ -7,7 +7,7 @@ git clone https://github.com/Pranayp170896/playwright-automation-framework-assig
 
 Execute below command:
 npm install
-npx playwright installx`
+npx playwright install
 
 To execute test:
 1.To run all test       :   npx playwright test
