@@ -1,0 +1,6 @@
+{
+  "executionMode": "sequence",
+  "runMode": "headed",
+  "timeout": 40000, 
+  "retries": 0
+}
