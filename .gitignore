@@ -8,3 +8,5 @@ node_modules/
 /playwright/.auth/
 /alllure-report/
 /alllure-results/
+/output/
+/package-lock.json/

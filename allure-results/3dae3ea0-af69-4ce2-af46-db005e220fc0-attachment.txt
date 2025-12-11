@@ -1,0 +1,12 @@
+APIResponse: 200 OK
+  cfs: 139
+  content-disposition: attachment; filename=file.json; size=148
+  content-type: application/json
+  file-ext: json
+  file-name: file.json
+  file-size: 148
+  date: Thu, 11 Dec 2025 05:39:31 GMT
+  server: kaulas
+  content-encoding: gzip
+  vary: Accept-Encoding
+  transfer-encoding: chunked

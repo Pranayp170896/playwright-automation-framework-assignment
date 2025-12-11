@@ -1,0 +1,4 @@
+{
+  Code: 4013,
+  Message: 'Missing credentials. Please provide a valid API token.'
+}

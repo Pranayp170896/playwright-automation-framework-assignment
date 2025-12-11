@@ -1,0 +1,8 @@
+File uploaded successfully
+{
+  FileName: 'final-result.txt',
+  FileExt: 'txt',
+  FileSize: 184,
+  FileId: 'jozrmv4d7w41pcukvju34hewtd9igl9z',
+  Url: 'https://v2.convertapi.com/d/jozrmv4d7w41pcukvju34hewtd9igl9z'
+}

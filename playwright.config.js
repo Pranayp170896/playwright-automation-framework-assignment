@@ -1,10 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 import fs from 'fs';
 
-// Load settings.json with safe encoding
+
 const settings = JSON.parse(fs.readFileSync('./settings.json', 'utf8'));
 
-// Safety fallbacks (no extra fields, just preventing crashes)
 const runMode = settings.runMode || "headless";
 const execMode = settings.executionMode || "parallel";
 
@@ -16,15 +15,12 @@ export default defineConfig({
   timeout: settings.timeout ?? 30000,
 
   use: {
+    baseURL: "https://v2.convertapi.com",
+    
     headless: runMode === "headless",
     trace: 'on-first-retry',
     screenshot: "only-on-failure",
-    video: "retain-on-failure",
-
-    baseURL: 'https://v2.convertapi.com',
-    extraHTTPHeaders: {
-      'Accept': 'application/json'
-    }
+    video: "retain-on-failure"
   },
 
   reporter: [

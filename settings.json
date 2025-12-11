@@ -1,6 +1,6 @@
 {
-  "executionMode": "sequence",
-  "runMode": "headed",
+  "executionMode": "parallel",
+  "runMode": "headless",
   "timeout": 40000, 
   "retries": 0
 }

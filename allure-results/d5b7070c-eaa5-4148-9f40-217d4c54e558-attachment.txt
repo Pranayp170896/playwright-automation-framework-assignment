@@ -1,0 +1,35 @@
+{
+  FileId: 'pranay01',
+  FileName: 'my_fileassignment.doc',
+  FileExt: 'doc',
+  Description: 'this is assignment file only '
+}
+{
+  cfs: '139',
+  'content-disposition': 'attachment; filename=file.json; size=148',
+  'content-type': 'application/json',
+  'file-ext': 'json',
+  'file-name': 'file.json',
+  'file-size': '148',
+  date: 'Thu, 11 Dec 2025 06:51:39 GMT',
+  server: 'kaulas',
+  'content-encoding': 'gzip',
+  vary: 'Accept-Encoding',
+  'transfer-encoding': 'chunked'
+}
+[
+  { name: 'cfs', value: '139' },
+  {
+    name: 'content-disposition',
+    value: 'attachment; filename=file.json; size=148'
+  },
+  { name: 'content-type', value: 'application/json' },
+  { name: 'file-ext', value: 'json' },
+  { name: 'file-name', value: 'file.json' },
+  { name: 'file-size', value: '148' },
+  { name: 'date', value: 'Thu, 11 Dec 2025 06:51:39 GMT' },
+  { name: 'server', value: 'kaulas' },
+  { name: 'content-encoding', value: 'gzip' },
+  { name: 'vary', value: 'Accept-Encoding' },
+  { name: 'transfer-encoding', value: 'chunked' }
+]
