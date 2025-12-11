@@ -3,7 +3,7 @@ Preconditon:
 Node js should be installed
 
 Clone repository:
-git clone 
+git clone https://github.com/Pranayp170896/playwright-automation-framework-assignment.git 
 
 Execute below command:
 npm install
